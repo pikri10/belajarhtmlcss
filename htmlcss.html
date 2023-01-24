@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <title>Belajar HTML & CSS</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="htmlcss.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="w3-bar w3-black">
+        <a href="#home" class="w3-bar-item w3-button" id="home">Home</a>
+        <a href="#html" class="w3-bar-item w3-button">HTML</a>
+        <a href="#css" class="w3-bar-item w3-button">CSS</a>
+    </div>
+    <!-- AKHIR NAVBAR -->
+    <!-- SIDEBAR -->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#html" class="w3-bar-item w3-button">HTML</a>
+        <a href="#css" class="w3-bar-item w3-button">CSS</a>
+    </div>
+    <!-- AKHIR SIDEBAR -->
+
+    <!-- PAGE CONTENT -->
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+        <div class="w3-container">
+            <h1>Belajar HTML & CSS</h1>
+        </div>
+    </div>
+    <br>
+    <a href="https://id.wikipedia.org/wiki/HTML" target="_blank"><img src="https://i.postimg.cc/DfbgvPCw/HTML5-logo-and-wordmark-svg.png" class="center" width="350" height="350" id="html"></a>
+    <div class="row w3-teal">
+        <div>
+            <h2><strong>Apa itu HTML?</strong></h2>
+        </div>
+    </div>
+    <ul>
+        <li>HTML adalah singkatan dari Hyper Text Markup Language</li>
+        <li>HTML adalah bahasa markup standar untuk membuat halaman Web</li>
+        <li>HTML menggambarkan struktur halaman Web</li>
+        <li>HTML terdiri dari serangkaian elemen</li>
+        <li>Elemen HTML memberi tahu browser cara menampilkan konten</li>
+        <li>Elemen HTML memberi label potongan konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.</li>
+    </ul>
+    <div class="row w3-teal">
+        <div>
+            <h2><strong>Contoh HTML Simpel</strong></h2>
+        </div>
+    </div>
+    <div class="w3-example">
+        <div class="w3-code notranslate htmlHigh">
+            &lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br><br>&lt;h1&gt;My First Heading&lt;/h1&gt;<br>&lt;p&gt;My first paragraph.&lt;/p&gt;<br><br> &lt;/body&gt;
+            <br>&lt;/html&gt;
+        </div>
+        <div class="row w3-teal">
+            <div>
+                <h2><strong>Elemen HTML</strong></h2>
+            </div>
+        </div>
+        <ul>
+            <li>Deklarasi &lt;!DOCTYPE html&gt; mendefinisikan bahwa dokumen ini adalah dokumen HTML5.</li>
+            <li>Elemen &lt;html&gt; adalah elemen root dari halaman HTML.</li>
+            <li>Elemen &lt;head&gt; berisi informasi meta tentang halaman HTML.</li>
+            <li>Elemen &lt;title&gt; menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman).</li>
+            <li>Elemen &lt;body&gt; mendefinisikan badan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.</li>
+            <li>Elemen &lt;h1&gt; mendefinisikan judul besar.</li>
+            <li>Elemen &lt;p&gt; mendefinisikan sebuah paragraf.</li>
+        </ul>
+        <p>Sekian untuk pembelajaran HTML. Untuk mempelajarinya lebih lanjut, <a href="https://www.w3schools.com/html/default.asp" target="_blank">klik disini.</a></p>
+        <hr>
+        <a href="https://id.wikipedia.org/wiki/CSS" target="_blank"><img src="https://i.postimg.cc/tT8bWGnf/icon-css-3.png" class="center" width="350" height="450" id="css"></a>
+        <div class="row w3-teal">
+            <div>
+                <h2><strong>Apa itu CSS?</strong></h2>
+            </div>
+        </div>
+        <ul>
+            <li>CSS adalah singkatan dari Cascading Style Sheets</li>
+            <li>CSS menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain</li>
+            <li>CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus</li>
+            <li>Stylesheet eksternal disimpan dalam file CSS</li>
+        </ul>
+        <p>CSS digunakan untuk menentukan gaya halaman web Anda, termasuk desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan ukuran layar.</p>
+        <div class="row w3-teal">
+            <div>
+                <h2><strong>Contoh HTML Simpel</strong></h2>
+            </div>
+        </div>
+        <div class="w3-example">
+            <h3>Contoh CSS</h3>
+            <div class="w3-code notranslate cssHigh">
+                body {
+                <br>&nbsp;&nbsp;background-color: lightblue;<br>}<br>
+                <br>h1 {
+                <br> &nbsp;&nbsp;color: white;<br> &nbsp;&nbsp;text-align: center;<br> }
+                <br><br> p {
+                <br> &nbsp; font-family: verdana;<br> &nbsp;&nbsp;font-size: 20px;<br> }
+            </div>
+        </div>
+        <div class="row w3-teal">
+            <div>
+                <h2><strong>CSS Memecahkan Masalah Besar</strong></h2>
+            </div>
+        </div>
+        <p>HTML TIDAK PERNAH dimaksudkan untuk memuat tag untuk memformat halaman web! </p>
+        <p>HTML dibuat untuk mendeskripsikan konten halaman web, seperti: </p>
+        <p>&lt;h1&gt;Ini adalah judul&lt;/h1&gt; </p>
+        <p>&lt;p&gt;Ini adalah sebuah paragraf.&lt;/p&gt; </p>
+        <p>Saat tag seperti &lt;font&gt;, dan atribut warna ditambahkan ke spesifikasi HTML 3.2, ini menjadi mimpi buruk bagi pengembang web. Pengembangan situs web besar, di mana font dan informasi warna ditambahkan ke setiap halaman, menjadi proses yang
+            panjang dan mahal. Untuk mengatasi masalah ini, World Wide Web Consortium (W3C) membuat CSS.</p>
+        CSS menghapus pemformatan gaya dari halaman HTML!</p>
+        <p>Sekian untuk pembelajaran HTML. Untuk mempelajarinya lebih lanjut, <a href="https://www.w3schools.com/html/default.asp" target="_blank">klik disini.</a></p>
+        <!-- AKHIR PAGE CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="footer w3-black">
+            <h6>Halaman ini dibuat oleh Fikri Oka Fadilah</h6>
+            <a href="https://www.facebook.com/fikrioka.10" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" width="50" height="50"> </a>
+            <a href="https://www.twitter.com/fikrioka10" target="_blank">
+                <img src="https://i.postimg.cc/wv8WNnxD/twitter.png" width="50" height="50"> </a>
+            <a href="https://www.instagram.com/fikrioka10" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" width="50" height="50"> </a>
+        </div>
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+</body>
+
+</html>

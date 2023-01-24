@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.row {
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    font-size: 0.5em;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    color: white;
+}
